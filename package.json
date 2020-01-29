@@ -1,0 +1,23 @@
+{
+  "name": "rename-jfif-to-jpg",
+  "version": "1.0.0",
+  "description": "Recursively rename .jfif files to .jpg",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com)",
+  "license": "MIT",
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
